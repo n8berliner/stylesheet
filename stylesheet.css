@@ -1,0 +1,117 @@
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: Montserrat, arial, helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Montserrat, arial, helvetica, sans-serif;
+}
+
+h3, :not(a) {
+    font-family: Montserrat, arial, helvetica, sans-serif;
+}
+
+h4 {
+    font-family: Montserrat, arial, helvetica, sans-serif;
+}
+
+p {
+   font-family: Raleway, arial, helvetica, sans-serif; 
+}
+
+a {
+    font-weight: bold;
+    background: linear-gradient(110deg, rgb(89, 22, 224), rgb(37, 138, 253));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transition: 1s;
+}
+
+i:hover {
+    border: solid #dedede;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.navbar {
+    background: white;
+    position: fixed;
+    display: block;
+    box-shadow: #222 -2px -13px 26px 8px;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    padding-bottom: 0px;
+}
+
+.name {
+    
+}
+
+.navbar-text {
+    margin-top: 76px;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-size: 17px;
+}
+
+.accentb {
+    background: #F1FFE7;
+}
+
+.down-arrow {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.main-down-arr {
+    margin-left: 280px;
+    top: 350px;
+    position: absolute;
+    transition: 1.8s;
+    z-index: 10;
+}
+
+.main-down-arr:hover {
+    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+}
+
+.h1-mainp-top {
+    position: absolute;
+    top: 140px;
+    color: white;
+    z-index: 15;
+}
+
+.black-screen-tran {
+    margin-left: -9px;
+    top: 0px;
+    position: absolute;
+    width: 600px;
+    height: 383px;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 5;
+}
+
+.category {
+    color: #777;
+}
+
+.indent {
+    margin-left: 24px;
+    margin-right: 16px;
+}
